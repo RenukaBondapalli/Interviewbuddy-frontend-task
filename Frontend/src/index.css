@@ -1,0 +1,47 @@
+/* 1️⃣ Import font first */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+
+/* 2️⃣ Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 3️⃣ Custom classes */
+.font-nunito {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600; /* SemiBold */
+}
+
+.text-16 {
+  font-size: 20px;
+}
+
+.leading-24 {
+  line-height: 24px;
+}
+
+.bg-heading {
+  background-color: #232323;
+  color: white;
+  padding: 0.25rem 0.5rem; /* optional padding */
+  border-radius: 0.25rem; /* optional rounding */
+}
+
+/* src/index.css */
+
+/* Add this below your other custom classes */
+.btn-add-user {
+  width: 97px;
+  height: 32px;
+  padding: 10px 16px; /* top/bottom 10px, left/right 16px */
+  border-radius: 6px;
+  background-color: #6834FF;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  opacity: 1;
+  font-weight: 500; /* optional, adjust if needed */
+  font-size: 14px; /* optional */
+}
